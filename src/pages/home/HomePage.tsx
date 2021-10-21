@@ -19,6 +19,7 @@ export function HomePage() {
                                 key={spotlight.shortName}
                                 name={spotlight.fullName}
                                 imageUrl={spotlight.imageUrl}
+                                shortName={spotlight.shortName}
                             />
                         ))}
                     </div>
