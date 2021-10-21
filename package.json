@@ -2,7 +2,7 @@
   "name": "bootcamp21",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://localhost:5001",
+  "proxy": "https://bootcamp2120211021094224.azurewebsites.net",
   "dependencies": {
     "@hookform/resolvers": "^2.8.2",
     "axios": "^0.23.0",
