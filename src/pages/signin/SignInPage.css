@@ -1,0 +1,24 @@
+.SignInPage,
+.SignInPage_Row,
+.SignInPage_Col {
+    height: 100%;
+}
+
+.SignInPage_Splash {
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.5;
+    filter: blur(3px);
+}
+
+.SignInPage_Content {
+    padding: 0.5rem 2rem;
+    border-left-style: solid;
+    border-left-width: 2px;
+}
+
+.SignInPage_Content form {
+    width: 100%;
+}

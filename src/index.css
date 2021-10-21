@@ -1,0 +1,37 @@
+html, body, #root {
+    height: 100%; 
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#root main {
+    flex: 1;
+}
+
+h1 {
+    text-align: center;
+    padding: 1rem 0;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+h2 {
+    margin: .75rem 0;
+    margin-top: 2rem;
+    padding: .25rem 0.5rem;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: large;
+    font-weight: bold;
+}
+
+form {
+    display: inline-block;
+    font-size: 1rem;
+    padding: 1.5rem;
+    border-radius: 3px;
+}

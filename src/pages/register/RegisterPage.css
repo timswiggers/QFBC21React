@@ -1,0 +1,41 @@
+.RegisterPage {
+    position: relative;
+    border-width: 2px;
+    border-style: solid;
+    border-top-width: 0;
+    border-bottom-width: 0;
+}
+
+.RegisterPage_Title {
+    text-align: center;
+    
+}
+
+.RegisterPage,
+.RegisterPage_Row,
+.RegisterPage_Col {
+    height: 100%;
+}
+
+.RegisterPage_Splash {
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.5;
+}
+
+.RegisterPage-Content {
+    display: flex;
+    justify-content: center;   
+    padding: 1rem;
+}
+
+.RegisterPage form {
+    width: 50%;
+    margin: 0 auto;
+}

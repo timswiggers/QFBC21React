@@ -1,0 +1,20 @@
+.DetailPage,
+.DetailPage_Row,
+.DetailPage_Col {
+    height: 100%;
+}
+
+.DetailPage_Splash {
+    padding: 2rem;
+    z-index: -1;
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.DetailPage_Content {
+    padding: 0.5rem 2rem;
+    border-left-style: solid;
+    border-left-width: 2px;
+}

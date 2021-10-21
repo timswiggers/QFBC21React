@@ -1,0 +1,17 @@
+.Spotlight-Card {
+    background-color: black;
+}
+
+.Spotlight-Content {
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.btn.btn-primary.Spotlight-Button {
+    border: 1px solid black;
+}

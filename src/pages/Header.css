@@ -1,0 +1,50 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.Header-Brand {
+    font-size: 5rem;
+    font-weight: bold;
+    text-shadow: 2px 2px #000;
+    text-align: center;
+    margin: 1rem;
+    letter-spacing: 0.3rem;
+    cursor: pointer;
+}
+
+.Header-AccountControls {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-transform: uppercase;
+    margin: 1rem;
+}
+
+.Header-AccountControls a,
+.Header-AccountControls span {
+    padding: 0.25rem 0.5rem;
+}
+
+.Header-AccountControls .divider {
+    margin: 1rem;
+    align-self: stretch;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.Header-LeftPlaceholder,
+.Header-AccountControls {
+    flex: 1;
+}
+
+.Header-Background {
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+}
